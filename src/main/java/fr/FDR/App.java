@@ -22,7 +22,7 @@ public class App extends Application
         try{
             //chargement du fichier FXML
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(App.class.getResource("/weather.fxml"));
+            loader.setLocation(App.class.getResource("/fxml/weather.fxml"));
             Parent root = loader.load();
 
             //création et initialisation de la scene

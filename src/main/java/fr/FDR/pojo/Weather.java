@@ -1,4 +1,4 @@
 package fr.FDR.pojo;
 
-public class Meteo {
+public class Weather {
 }
